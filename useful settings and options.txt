@@ -1,0 +1,7 @@
+Window -> Load Layout -> Default Editor Layout : To reset to the default layout, if you messup something.
+
+Window -> Click on {Any tabs} that you want to open.
+
+Control how Object snaps to surface : 
+ - Can give offset setting to snap the object by x offset to the surface. Example : 10 offset will snap an object 10 units away from the surface
+ - Rotate to surface will align the object while snapping on the surface

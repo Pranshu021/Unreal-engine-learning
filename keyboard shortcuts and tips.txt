@@ -1,5 +1,4 @@
-
-					NAVIGATION
+						NAVIGATION
 ======================================================
 
 1ST METHOD
@@ -32,3 +31,29 @@ Alt + LMB - To move camera around a single point of interest, it can be any rand
 Tip - Press F to focus on any mesh or object then Alt+LMB to move camera around it.
 
 Alt + RMB - To zoom in and out on a particular point of interest
+
+
+===============================================================
+
+
+
+
+
+
+						Moving, Rotation, Scaling
+===============================================================
+
+Q, W, E, R - To select different widgets
+Q : Disables the widgets
+W : Activate Moving widget, to move object here and there
+E : Rotation widget,  to rotate object 
+R : Scaling widget, to scale up and down the widget.
+
+
+Ctrl + LMB - To select multiple actors in the scene
+
+Hold SHIFT + use moving widget : Camera will move with the object. Wherever you move the object, camera will move with it.
+
+Ctrl + D - To make copy of the actor.
+		OR
+Hold Alt + Drag and actor - It will create a copy of the actor and move the copied actor.
