@@ -1,0 +1,34 @@
+
+					NAVIGATION
+======================================================
+
+1ST METHOD
+--------------------
+
+LMB - To look left and right while fixed, move mouse ahead and back to do the same
+
+RMB - To look up, down, left , right while fixed
+
+Middle Mouse - To move in x,y,z direction, means anywhere
+
+
+2ND METHOD
+---------------------
+
+RMB + W,A,S,D - To move in a specific direction
+
+RMB + Q, E - To move camera up and down respectively
+
+RMB + Z,C - To temporarily zoom in and out on something that you focus.
+
+Scroll - Permanent zoom in and out
+
+F - Focus on any object that is selected.
+
+
+3RD METHOD
+--------------------
+Alt + LMB - To move camera around a single point of interest, it can be any random point or object.
+Tip - Press F to focus on any mesh or object then Alt+LMB to move camera around it.
+
+Alt + RMB - To zoom in and out on a particular point of interest
