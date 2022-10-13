@@ -57,3 +57,50 @@ Hold SHIFT + use moving widget : Camera will move with the object. Wherever you 
 Ctrl + D - To make copy of the actor.
 		OR
 Hold Alt + Drag and actor - It will create a copy of the actor and move the copied actor.
+
+Ctrl + ` - To change the pivot orientation to local space instead of world space. Or click small globe icon on right side of Scaling button on viewport.
+
+===============================================================
+
+
+
+
+
+
+							Snapping
+===============================================================
+
+END key - If an actor is selected and END key is pressed, it will snap that actor to the nearest surface
+
+Hold V - When bringing one actor close to another, several blue dots will appear on the other actor. When you go close to one of the dots, pivot of one actor will snap to vertex of 2nd actor.
+
+MMB (While selecting pivot of actor) + Hold (Alt + V) - To snap the pivot on one of the vertices of the actor.
+
+===============================================================
+
+
+
+
+
+
+							Viewing
+===============================================================
+
+F11 to make viewport fullscreen
+
+G key - To turn on and off the game mode. Will hide the icons and stuff in game mode.
+
+Ctrl + 0-9 - If you like a camera position/angle on viewport , press ctrl + [0-9] to bookmark that camera position. To re-visit the bookmarked location, press the same number.
+
+Ctrl + Shift + P - To Pilot an object and take control of view of object to place it properly. Like spotlight, Right click on spotlight and select Pilot spotlight to view the world from spotlight POV, to position it correctly.
+
+Ctrl + P - To open global asset window, can search any asset there
+
+
+
+
+						
+
+
+
+

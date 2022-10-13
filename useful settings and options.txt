@@ -1,7 +1,56 @@
-Window -> Load Layout -> Default Editor Layout : To reset to the default layout, if you messup something.
-
-Window -> Click on {Any tabs} that you want to open.
+Window option in toolbar
+ -  Click on {Any tabs} that you want to open. 
+ - Load Layout -> Default Editor Layout : To reset to the default layout, if you messup something.
+ 
 
 Control how Object snaps to surface : 
  - Can give offset setting to snap the object by x offset to the surface. Example : 10 offset will snap an object 10 units away from the surface
  - Rotate to surface will align the object while snapping on the surface
+
+
+Grid Snapping 
+ - Small icon on the side of surface snapping on main viewport
+ - Turned on : moves actors in increment of grid lines
+ - Turned off : can moves actors smoothly and freely in non-incremental way
+ - Snap size setting : to change number of increment actor moves when turned on grid snapping.
+
+
+Scale Snapping
+ - Small icon on the right side of Grid snapping
+ - To move, rotate, scale and object in increments of specified number in setting.
+   Note : 1 Grid unit = 1cm in real world.
+
+
+View mode
+ - Unlit setting - To disable lighting effects , to see the base colors of the objects
+ - Wireframe setting - To enable wireframe of 3d objects.
+
+
+Viewport Options (3 line button , left top viewport)
+ - Screen percentage : To increase or decrease viewport resolution.)
+ - Create camera here : To create a new camera at the current camera position you are in.
+
+
+Piloting an object - To take control of view of object to place it properly. Like spotlight, Right click on spotlight and select Pilot spotlight to view the world from spotlight POV, to position it correctly. 
+
+
+
+Content Drawer (Bottom left):
+Add button : To add anything to the project. 
+Add -> Add Feature or Content Pack : To add existing template projects only to the content drawer (not on viewport), like default 3rd person shooting template.
+Save All -> To save all the imported assets to project contents.
+
+
+Details Panel:
+
+Lock icon : To lock the details of a particular object. After locking, if you select any other object in viewport , details will still be shown of the one you locked.
+
+Property Matrix icon (Note like icon , right side of search bar in details panel) : To open properties of multiple selected actors at once in a separate window.
+
+
+Details Panel:
+ - Location (on side of transform) : If an actor is child of another actor , it will move related to the parent actor. If global is selected then normal.
+ - Mobility : Static - actor won't move, like rock. Movable - Actor will move, like a box. Stationary - actor won't move but other properties like lighting, color and all can change 
+   Note : Static actors take less processing power as it's lighting , position and everything is pre-determined by the engine. For movable, data has to be calculated and rendered.
+
+
