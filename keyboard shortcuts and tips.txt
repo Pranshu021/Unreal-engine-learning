@@ -96,6 +96,21 @@ Ctrl + Shift + P - To Pilot an object and take control of view of object to plac
 
 Ctrl + P - To open global asset window, can search any asset there
 
+===============================================================
+
+
+
+
+
+
+							Selecting
+===============================================================
+
+CTRL + G - To group multiple selected actors.
+SHIFT + G - To ungroup the actors
+
+
+
 
 
 

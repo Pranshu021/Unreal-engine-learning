@@ -52,5 +52,9 @@ Details Panel:
  - Location (on side of transform) : If an actor is child of another actor , it will move related to the parent actor. If global is selected then normal.
  - Mobility : Static - actor won't move, like rock. Movable - Actor will move, like a box. Stationary - actor won't move but other properties like lighting, color and all can change 
    Note : Static actors take less processing power as it's lighting , position and everything is pre-determined by the engine. For movable, data has to be calculated and rendered.
-
-
+ - Static Mesh : In static mesh drop down list, you can replace the current actor in the viewport and bring another actor from content drawer at the very same position and rotation.
+ - Mobility : Initially, when you create or bring in a mesh, it will be static and won't follow the laws of physics, it will just stay static at one position. To make it movable and real change the mobility to movable.
+ - Simulate Physics : Even after clicking movable option, object will not interact with other actors, to make it , check simulate physics in Details panel.
+ - Mass : mass of an actor
+ - Damping (Linear and Angular) - How far the object will go if you hit it with a projectile. Determines how smoothly or hard object will move. Linear - Distance , Angular - Rotations.
+ - Contraints - When the mesh is affected by physics, you can set constraints for the mesh position. Means the mesh cannot go outside the specified boundaries.
