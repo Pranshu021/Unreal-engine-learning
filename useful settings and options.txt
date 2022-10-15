@@ -58,3 +58,32 @@ Details Panel:
  - Mass : mass of an actor
  - Damping (Linear and Angular) - How far the object will go if you hit it with a projectile. Determines how smoothly or hard object will move. Linear - Distance , Angular - Rotations.
  - Contraints - When the mesh is affected by physics, you can set constraints for the mesh position. Means the mesh cannot go outside the specified boundaries.
+
+
+Brushes:
+ - Brushes are mostly used as a substitute for meshes in the early stages to create a prototype. Each brush is stored in memory and consumes more processing than static meshes. Brushes are basically normal shapes only, not literally brushes.
+ - Brush Type (Additive, Subtractive) - If you make a brush Subtractive and try to intersect another brush object, it will create a hole in the brush object of the shape of other (Subtractive one) brush.
+ - To apply a material to all surfaces of the brush - Select all sides of the brush (Shift + J) and drag and drop a material from the Content drawer to the brush surface.
+
+
+Lights :
+ - Directional lights : sunlight, moonlight
+ - Point lights : lamps, bulbs
+ - Spotlight : Spotlight, flashlights
+ - Rect light : rectangular lights, Televisions, square light panels, phones, etc.
+ - Sky light : Reflected light, scattered light from atmosphere
+ - In details Panels,
+ 	- Static, Stationary, Movable - Static light is immovable and cannot change the properties like light colors and all, Stationary lights is immovable but properties can be changes, Movable lights is free and everything can be changed. As you 		   move right to the settings i.e Static -> Stationary -> Movable , lighting gets more resource intensive.
+
+Sky and Clouds
+ - Create Menu (Mesh adding icon) -> Visual Effects -> Sky : To create a sky in the scene. If you put directional light while having a sky, the sun in the scene will imitate the directional light and it's properties. Means that sun will be the directional light. 
+ - Create Menu (Mesh adding icon) -> Visual Effects -> Volumetric Clouds : To add clouds
+
+
+Player Start
+- Create Menu -> Basic -> Player Start : Position from where your character and the game will start.
+
+
+- Create Menu -> Volumes : Volumes are special 3D areas that a player cannot see but has a special purpose. For example : Blocking Volume - Player can't move or enter beyond that. Pain Volume - Player gets damage when enter pain volume
+- Volumes are basically brushes
+
