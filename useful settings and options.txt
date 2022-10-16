@@ -97,5 +97,7 @@ Blueprints :
 - Blueprints Tab (left side) -> Functions -> + button - To add a function.
 - Details Tab -> Input - To add inputs to the function. It is called Entry node , it is a node that will fire first whenever a function is called.
 - Details Tab -> Output - To add outputs for a function. It is called Return Node, last node of function, will contain a pin for each output variable so they can be passed back out of the function.
+- Right Click on Graph -> Add Timeline -> To add timeline where you can create time-based animations.
+- Uncheck Synchronize View in Timeline mode - If you are adding multiple tracks in a timeline, means multiple animations, they all will have synchronize views and will zoom in , out, move simultaneously. To remove this uncheck Synchronize view.
 
 
