@@ -87,3 +87,15 @@ Player Start
 - Create Menu -> Volumes : Volumes are special 3D areas that a player cannot see but has a special purpose. For example : Blocking Volume - Player can't move or enter beyond that. Pain Volume - Player gets damage when enter pain volume
 - Volumes are basically brushes
 
+
+
+Blueprints :
+- EventBeginPlay Node : It is activated when level first starts.
+- EventTick Node : It is activated at every tick of the game. Every frame.
+- Execution pins : Small arrows on top left and right side of the nodes. Left side node is when the execution starts (Input is attached to it). Right side pin is when node finishes execution (Output goes through this).
+- Blueprints Tab (left side) -> Variables -> + button - To add a variable which can hold a value.
+- Blueprints Tab (left side) -> Functions -> + button - To add a function.
+- Details Tab -> Input - To add inputs to the function. It is called Entry node , it is a node that will fire first whenever a function is called.
+- Details Tab -> Output - To add outputs for a function. It is called Return Node, last node of function, will contain a pin for each output variable so they can be passed back out of the function.
+
+
