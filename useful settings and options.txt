@@ -1,6 +1,7 @@
 Window option in toolbar
  -  Click on {Any tabs} that you want to open. 
  - Load Layout -> Default Editor Layout : To reset to the default layout, if you messup something.
+ - Settings (Top right) -> World Settings : To change global project settings.
  
 
 Control how Object snaps to surface : 
@@ -99,5 +100,8 @@ Blueprints :
 - Details Tab -> Output - To add outputs for a function. It is called Return Node, last node of function, will contain a pin for each output variable so they can be passed back out of the function.
 - Right Click on Graph -> Add Timeline -> To add timeline where you can create time-based animations.
 - Uncheck Synchronize View in Timeline mode - If you are adding multiple tracks in a timeline, means multiple animations, they all will have synchronize views and will zoom in , out, move simultaneously. To remove this uncheck Synchronize view.
+
+
+
 
 
